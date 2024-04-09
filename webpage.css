@@ -1,0 +1,117 @@
+body{
+    margin: 0%;
+}
+.bodyy{
+      background-image: url(para.jpg); background-size: cover;
+      height: 480px; justify-content: center; text-align: center;
+      color: white;
+      padding-top: 20px; 
+      
+}
+
+.header{
+    display: flex; 
+    padding: .7rem .9rem ; margin-right: auto;
+    background-color: whitesmoke;
+}
+#circle{
+    margin-right:auto; margin-top: .5%;
+    margin-left: 2%;
+    font-size: 25px; color: grey;
+}
+.inp{
+    border-radius: 10px; background-color: rgb(220, 220, 220); padding: .5rem 1rem;border: none; margin-right: 10px;
+}
+.inp input{
+    border: 0; background-color:  rgb(220, 220, 220); width: 70px;
+    color: black; font-size: 15px;
+}
+span{
+    padding: .6rem;
+}
+.btn{
+    color: white; background-color: black;
+    border-radius: 15px; padding: .4rem 1rem;
+    margin-left: 10px;
+}
+.bodyy h3{
+    width: 80%; 
+   padding-left: 10%;
+}
+.bodyy button{
+    background: black;
+    border-radius: 30px;
+    width: 200px; height: 40px;
+    color: white; font-size: 20px;
+}
+.orline{
+    display: flex; width: 300px;
+    color: rgba(128, 128, 128, 0.769);
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px; 
+    text-align: center;
+    justify-content: center;
+    
+}
+.line{
+    height: 1px; 
+    background-color: rgba(128, 128, 128, 0.769); 
+    margin:0 15px; 
+    align-items: center; flex-grow: 1;
+}
+section{
+    width: 340px; background-color:whitesmoke;
+    border-radius: 25px; height: 400px;
+   position: absolute;
+   top: 15%; right: 1.5%;
+   animation-name: sign-up;
+    animation-duration: 1s;
+}
+@keyframes sign-up{
+    from{
+        transform:translateX(150%);
+    }
+}
+section form i{
+    margin-left: 95%;
+    font-size: 30px;
+}
+section form{
+    padding: 20px 40px; 
+}
+section form h2{
+      color: rgb(92, 92, 92);
+      text-align: center;
+      margin-top: -5px;
+}
+section form h4{
+    color: gray;
+    text-align: center;
+    margin-top: -10px;
+}
+section form input{
+    margin-bottom: 15px;
+    margin-top: 17px;
+    height: 35px; width: 255px;
+    border-radius: 10px; padding-left: 15px;
+    border-color: rgba(136, 135, 135, 0.546); 
+    border-style: solid;
+}
+section form button{
+    background-color: black;
+    color: white; font-size: 17px;
+    width:270px; height: 40px;
+    border-radius: 25px;
+}
+#contd{
+    background-color:rgba(128, 128, 128, 0.605);
+    color: white; border: none;
+}
+#google-btn{
+    background-color: white;
+    color: rgb(41, 39, 39); text-decoration: solid;
+    border-color: rgba(136, 135, 135, 0.546); 
+    border-style: solid;
+    font-size: 15px;
+}
